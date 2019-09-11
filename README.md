@@ -2,7 +2,7 @@
 
 A small collection of words, word combinations, placenames, proverbs etc
 
-Using a list of [3000 words](https://www.ef.edu/english-resources/english-vocabulary/top-3000-words/) as a keyword search at https://maoridictionary.co.nz we were able to return 14,562 unique results.
+Using a list of [3000 words](https://www.ef.edu/english-resources/english-vocabulary/top-3000-words/) as a keyword search at https://maoridictionary.co.nz we were able to return 14,561 unique results.
 
 
     #!/usr/bin/env bash

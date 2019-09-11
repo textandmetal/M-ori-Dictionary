@@ -14,5 +14,6 @@ Using a list of [3000 words](https://www.ef.edu/english-resources/english-vocabu
       wget "https://maoridictionary.co.nz/search?idiom=&phrase=&proverb=&loan=&histLoanWords=&keywords=$i"
     done < dictionary.txt
 
+The list was generated with:
 
     grep -h "\<h2\ class\=\"title" | sed s/\<h2\ class=\"title\ \ \\>//" | sort | unique > list.txt

@@ -1,12 +1,8 @@
 #!/usr/bin/env bash
-# This script was written by textandmetal textandmetal@gmail.com
-source ~/.dotfiles/bash/master
-bash_colors
-
+# This script was written by textandmetal@gmail.com
 
 # Read from dictionary file and download as keyword search from maoridictionary.co.nz
 while read i; do 
 	clear
-	script_title "Maori Dictionary Downloader"
 	wget "https://maoridictionary.co.nz/search?idiom=&phrase=&proverb=&loan=&histLoanWords=&keywords=$i"
 done < dictionary.txt
